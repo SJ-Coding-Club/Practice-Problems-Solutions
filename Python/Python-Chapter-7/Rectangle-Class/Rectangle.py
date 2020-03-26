@@ -8,4 +8,16 @@ class Rectangle:
     
     def getPerimeter(self):
         return 2 * (self.__width + self.__height)
+    
+    def getWidth(self):
+        return self.__width
+    
+    def getHeight(self):
+        return self.__height
+    
+    def setWidth(self, width):
+        self.__width = width
+
+    def setHeight(self, height):
+        self.__height = height
       
