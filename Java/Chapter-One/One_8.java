@@ -15,7 +15,7 @@ public class One_8
 {
   public static void main(String[] args)
   {
-    final double PI = 3.14159265359;
+    double PI = 3.14159265359;
     double radius = 5.5;
 
     double perimeter = 2 * radius * PI;
